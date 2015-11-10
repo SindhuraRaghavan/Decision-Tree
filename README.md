@@ -1,6 +1,8 @@
 #Decision Tree
+
+##Implementation
 ```
-##Implementation of ID3 Decision Tree algorithm for classification of Cleveland's heart disease dataset for the presence or absence of heart disease.
+Implementation of ID3 Decision Tree algorithm for classification of Cleveland's heart disease dataset for the presence or absence of heart disease.
 
 ID3 is a greedy algorithm that constructs the decision tree by obtaining the best decision attribute at every node as the one which gives the maximum information gain
 
@@ -10,8 +12,9 @@ ID3 is a greedy algorithm that constructs the decision tree by obtaining the bes
   * Performance of the system is measured as the ratio of number of instances correctly classified to the total number of instances in the test dataset
 ```
 
+##Dataset
 ```
-##More about the Dataset : cleve_heart_disease.txt
+More about the Dataset : cleve_heart_disease.txt
 * The complete dataset consists of 76 attributes
 * We are interested in only 14 attributes of the 76 - Age, Sex, Chest pain type, Resting blood pressure, Cholesteral level, Fasting blood sugar, Resting ECG, Maximum heart rate, Angina, Oldpeak, Slope, Colored vessels, Thal, Healthy/sick
 * We discretize the input attributes 
